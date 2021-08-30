@@ -24,3 +24,26 @@ import { Walrus } from "../Modules/Walrus.js"
 import { Xerus } from "../Modules/Xerus.js"
 import { Yak } from "../Modules/Yak.js"
 import { Zonkey } from "../Modules/Zonkey.js"
+
+let ally = new Ape('ally')
+let bob = new Bobcat('bob')
+
+let Kyle = new KomodoDragon('Kyle')
+let Gary = new GrizzlyBear('Gary')
+
+
+
+export class AllyvsBob {
+    
+    allyvsbob() {
+        if (ally.dangerous === bob.dangerous)
+            alert('they both dangerous')
+    }
+}
+
+export class KylevsGary {
+    kylevsgary() {
+        if (Kyle.leg > Gary.legs)
+            alert('Kyle the Dragon is King of the jungle')
+    }
+}
